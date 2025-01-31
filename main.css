@@ -1,0 +1,141 @@
+/* CONFIGURAÇÕES PADRÃO */
+
+body {
+    margin: 0;
+    background-color: #0b0b0b;
+}
+
+img {
+    display: block;
+}
+
+/* CABEÇALHO */
+header > section{
+
+}
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+    background-color: rgb(22, 22, 22);
+}
+
+header img {
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li, a {
+    display: inline-block;
+}
+
+a {
+    border: 2px solid black;
+    background-color: #48494a;
+    box-shadow: inset 0 -6px #313233, inset 2px 2px #6d6d6e, inset -2px -8px #5a5b5c;
+    padding: 6px 16px 12px;
+    transition: 
+        0.25s ease-in-out background-color, 
+        0.25s ease-in-out box-shadow,
+        0.05s linear transform,
+        0.05s ease-in-out filter;
+}
+
+a:hover {
+    background-color: #287984;
+    box-shadow: inset 0 -6px #284b54, inset 2px 2px #518d9c, inset -2px -8px #3a7b8f;
+}
+
+a:active {
+    transform: translateY(5px);
+    filter: brightness(80%);
+}
+
+.active-page {
+    background-color: #3c8428;
+    box-shadow: inset 0 -6px #305428, inset 2px 2px #629c51, inset -2px -8px #4e8f3a;
+}
+
+/* TEXTO */
+
+h1, h2, h3, h4, h5, p {
+    color: white;
+}
+
+h1, h2 {
+    font-family: Minecraft;
+}
+
+p {
+    font-family: 'Work Sans';
+}
+
+p:first {
+    font-size: 14pt;
+}
+
+a {
+    font-family: Minecraft;
+    font-size: 14pt;
+    text-decoration: none;
+    color: white;
+}
+
+/* CLASSES UNIVERSAIS */
+
+.featured-image {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* FONTES */
+
+/* Minecraft */
+@font-face {
+    font-family: "Minecraft";
+    src: url(fontes/minecraft/MinecraftRegular-Bmg3.otf) format(opentype);
+    font-size: small large;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url(fontes/minecraft/MinecraftBold-nMK1.otf) format(opentype);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url(fontes/minecraft/MinecraftBoldItalic-1y1e.otf) format(opentype);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url(fontes/minecraft/MinecraftItalic-R8Mo.otf) format(opentype);
+    font-style: italic;
+}
+
+/* Minecraft Ten */
+@font-face {
+    font-family: "Minecraft Ten";
+    src: url("fontes/Minecraft Ten/MinecraftTen-VGORe.ttf");
+}
+
+/* Work Sans*/
+@font-face {
+    font-family: "Work Sans";
+    src: url(fontes/Work_Sans/WorkSans-VariableFont_wght.ttf) format(truetype)
+}

@@ -1,0 +1,174 @@
+main {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    margin: 20px 0;
+    min-height: 180px;
+    user-select: none;
+}
+
+h2:first-of-type {
+    margin-top: 50px;
+}
+
+p:first-of-type {
+    margin-top: 5px;
+}
+
+.details-box p {
+    padding: 10px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    visibility: collapse;
+    opacity: 0;
+    transition: 0.5s ease-in-out opacity;
+}
+
+.details-box h1 {
+    margin: 0;
+}
+
+.details-box:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.update-logo {
+    height: 100px;
+}
+
+section h1, section h2 {
+    font-family: "Minecraft Ten";
+}
+
+.details-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 15px;
+}
+
+.details-box h1 {
+    font-size: 36pt;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+    padding: 10px 16px 4px;
+}
+
+.title-box h1 {
+    font-size: 32pt;
+}
+
+.title-box {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+section h1, .title-box p {
+    margin: 0;
+}
+
+h1 {
+    font-family: Minecraft Ten;
+    font-size: 36pt;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* FUNDOS (BACKGROUND-IMAGES) */
+
+#update21 {
+    background-image: url(../imagens/artworks/updates/1.21.png);
+    background-position: top 30% right;
+}
+
+#update20-5 {
+    background-image: url(../imagens/artworks/updates/1.20.5.jpg);
+    background-position: center right;
+    background-size: cover;
+}
+
+#update20 {
+    background-image: url(../imagens/artworks/updates/1.20.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#update19 {
+    background-image: url(../imagens/artworks/updates/1.19.png);
+    background-position: top 15% center;
+}
+
+#update18 {
+    background-image: url(../imagens/artworks/updates/1.18.png);
+    background-position: center;
+}
+
+#update17 {
+    background-image: url(../imagens/artworks/updates/1.17.png);
+    background-position: center;
+}
+
+#update16 {
+    background-image: url(../imagens/artworks/updates/1.16.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#update15 {
+    background-image: url(../imagens/artworks/updates/1.15.png);
+    background-position: top 15% center;
+}
+
+#update14 {
+    background-image: url(../imagens/artworks/updates/1.14.png);
+    background-position: bottom 25% center;
+}
+
+#update13 {
+    background-image: url(../imagens/artworks/updates/1.13.png);
+    background-position: top 40% center;
+}
+
+#update12 {
+    background-image: url(../imagens/artworks/updates/1.12.jpeg);
+    background-position: center bottom 15%;
+    background-size: cover;
+}
+
+#update11 {
+    background-image: url(../imagens/artworks/updates/1.11.webp);
+    background-position: right bottom 40%;
+    background-size: cover;
+}
+
+#update10 {
+    background-image: url(../imagens/artworks/updates/1.10.png);
+    background-position: center bottom 40%;
+}
+
+#update9 {
+    background-image: url(../imagens/artworks/updates/1.9.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#update8 {
+    background-image: url(../imagens/artworks/updates/1.8.jpg);
+    background-position: center center;
+    background-size: cover;
+}
