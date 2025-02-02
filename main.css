@@ -10,12 +10,13 @@ img {
 }
 
 /* CABEÇALHO */
-header > section{
 
-}
 header {
-    position: fixed;
-    width: 100%;
+    position: sticky;
+    top: 0;
+    width: 60%;
+    padding: 1rem 20%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
